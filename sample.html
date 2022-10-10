@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>FoodCookerPlanner</h1>
+</header>
+<main>
+<div id="divinput" >
+    <input type="text" name="input-food-name" placeholder="I like to eat..." class="input-food" id="input-food">
+            <button class="input-button" id="input-btn">Save</button>
+        </div>
+        <ul id="food-container" class="food-container">
+            <li class="food-item">
+                <div>Sambar</div>
+                <div onclick="removeFoodItem(event)"><i class="fa fa-xmark"></i></div>
+            </li>
+            <li class="food-item">
+                <div>Rasam</div>
+                <div onclick="removeFoodItem(event)"><i class="fa fa-xmark"></i></div>
+            </li>
+            <li class="food-item">
+                <div>Curd</div>
+                <div onclick="removeFoodItem(event)"><i class="fa fa-xmark"></i></div>
+            </li>
+        </ul>
+        <section>
+            <div id="food-list-statistics"></div>
+            <ul id="food-container" class="food-container">
+            </ul>
+            <div id="no-list">
+                <img src="https://cdni.iconscout.com/illustration/premium/thumb/empty-state-concept-3428212-2902554.png"
+                    alt="Not found">
+                <h6>Create your food items.</h6>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+    <script src="Main.js"></script>
+    <script src="alert.js"></script>
+</body>
+
+</html>

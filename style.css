@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: royalblue;
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+}
+main{
+    background-color: darkgray;
+    text-align: center;
+}
+#divinput{
+    padding: 2rem;
+}
+#input-food{
+    padding: 0.5rem;
+    width: 15rem;
+    border-radius: 10px;
+    border: none;
+}
+#input-btn{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(74, 74, 231);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 7rem;
+    margin-left: 1rem;
+}
+#input-btn:hover{
+    background-color: blue;
+    color: white;
+}
+#food-container{
+    background-color: white;
+    width: 40rem;
+    border-radius: 15px;
+    margin: 2rem auto;
+    list-style: none;
+    border-radius: 10px;
+
+    
+}
+.food-item{
+    border: 2px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
